@@ -40,7 +40,7 @@ vectorstore = PineconeVectorStore(
 )
 
 tavily_extract = TavilyExtract()
-tavily_map = TavilyMap(max_depth=2, max_breadth=20, max_pages=1000)
+tavily_map = TavilyMap(max_depth=5, max_breadth=20, max_pages=1000)
 tavily_crawl = TavilyCrawl()
 
 
