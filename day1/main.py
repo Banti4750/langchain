@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
-# Load environment variables
+# Load environment variable
 load_dotenv()
 
 # Initialize Groq model
